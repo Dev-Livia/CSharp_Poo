@@ -1,0 +1,7 @@
+C:\Users\45380\Documents\Cursos\C#\Classes, Atributos, Métodos, Membros estáticos\Ex02\bin\Debug\Ex02.exe.config
+C:\Users\45380\Documents\Cursos\C#\Classes, Atributos, Métodos, Membros estáticos\Ex02\bin\Debug\Ex02.exe
+C:\Users\45380\Documents\Cursos\C#\Classes, Atributos, Métodos, Membros estáticos\Ex02\bin\Debug\Ex02.pdb
+C:\Users\45380\Documents\Cursos\C#\Classes, Atributos, Métodos, Membros estáticos\Ex02\obj\Debug\Ex02.csproj.AssemblyReference.cache
+C:\Users\45380\Documents\Cursos\C#\Classes, Atributos, Métodos, Membros estáticos\Ex02\obj\Debug\Ex02.csproj.CoreCompileInputs.cache
+C:\Users\45380\Documents\Cursos\C#\Classes, Atributos, Métodos, Membros estáticos\Ex02\obj\Debug\Ex02.exe
+C:\Users\45380\Documents\Cursos\C#\Classes, Atributos, Métodos, Membros estáticos\Ex02\obj\Debug\Ex02.pdb

@@ -47,3 +47,65 @@ class Program
     }
 }
 ```
+## 🧠 Recapitulação de Lógica de Programação
+
+Antes de mergulhar nos conceitos avançados de C#, é essencial relembrar os fundamentos da lógica de programação. Dois pilares importantes são as **estruturas condicionais** e as **estruturas de repetição**, que permitem criar fluxos de execução dinâmicos no código.
+
+---
+
+### 🔹 Estruturas Condicionais: `if` e `else`
+
+As estruturas condicionais são usadas para tomar decisões no programa com base em condições.
+
+#### **Exemplo em C#:**
+```csharp
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Digite sua idade:");
+        int idade = int.Parse(Console.ReadLine());
+
+        if (idade >= 18)
+        {
+            Console.WriteLine("Você é maior de idade.");
+        }
+        else
+        {
+            Console.WriteLine("Você é menor de idade.");
+        }
+    }
+}
+```
+### 🔹 Estruturas de Repetição
+
+As estruturas de repetição são usadas para executar um bloco de código várias vezes, até que uma condição seja satisfeita.
+
+#### **Tipos de Laços em C#:**
+- **`while`**: Executa enquanto a condição for verdadeira.
+- **`for`**: Ideal para loops com contadores, quando você sabe de antemão o número de iterações.
+- **`do-while`**: Executa o código pelo menos uma vez antes de verificar a condição.
+
+---
+
+#### **Exemplo com `while`:**
+```csharp
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int contador = 1;
+
+        while (contador <= 5)
+        {
+            Console.WriteLine($"Contagem: {contador}");
+            contador++; // Incrementa o contador
+        }
+    }
+}
+```
+

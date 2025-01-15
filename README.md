@@ -108,4 +108,59 @@ class Program
     }
 }
 ```
+## 🏗️ Classes
 
+Em C#, **classes** são moldes (ou templates) usados para criar objetos. Uma classe define as propriedades (atributos) e comportamentos (métodos) que um objeto pode ter. As classes são um dos pilares da programação orientada a objetos (OO) e ajudam a organizar o código em blocos reutilizáveis.
+
+### 🔹 Definição de uma Classe
+
+Uma classe é composta por dois principais componentes:
+1. **Atributos (ou Propriedades)**: Características do objeto.
+2. **Métodos (ou Funções)**: Ações que o objeto pode realizar.
+
+#### **Exemplo de Classe em C#:**
+
+```csharp
+using System;
+
+class Carro
+{
+    // Atributos
+    public string Modelo;
+    public string Cor;
+    public int Ano;
+
+    // Método
+    public void ExibirInformacoes()
+    {
+        Console.WriteLine($"Modelo: {Modelo}");
+        Console.WriteLine($"Cor: {Cor}");
+        Console.WriteLine($"Ano: {Ano}");
+    }
+}
+```
+```
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Criando um objeto da classe Carro
+        Carro meuCarro = new Carro();
+        
+        // Atribuindo valores aos atributos
+        meuCarro.Modelo = "Fusca";
+        meuCarro.Cor = "Azul";
+        meuCarro.Ano = 1980;
+
+        // Chamando o método da classe
+        meuCarro.ExibirInformacoes();
+    }
+}
+```
+### 🔍 Explicação do Código:
+**Classe Carro:* Definimos a classe com três atributos (Modelo, Cor, Ano) e um método (ExibirInformacoes).
+*Objeto meuCarro:* Criamos uma instância da classe Carro e atribuimos valores aos seus atributos.
+*Chamada de Método:* Usamos o método ExibirInformacoes() para exibir as propriedades do carro no console.
+### 📌 Como Funciona:
+Atributos são como "variáveis" de uma classe e são usados para armazenar dados sobre o objeto.
+Métodos são funções dentro da classe que definem o que o objeto pode fazer, como manipular ou retornar seus dados.
